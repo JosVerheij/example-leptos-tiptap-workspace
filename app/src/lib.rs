@@ -13,6 +13,9 @@ pub fn App() -> impl IntoView {
     provide_meta_context();
 
     view! {
+        <Script type_="module" src="/js/tiptap-bundle.min.js"/>
+        <Script type_="module" src="/js/tiptap.js"/>
+        
         <Stylesheet id="leptos" href="/pkg/start-axum-workspace.css"/>
 
         // sets the document title
