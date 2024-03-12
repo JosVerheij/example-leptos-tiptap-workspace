@@ -1,0 +1,25 @@
+body {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+table#selection-state {
+    th {
+        padding: 0.2em;
+        text-align: left;
+    }
+    td {
+        padding: 0.2em;
+        text-align: left;
+
+        &.value {
+            text-align: center;
+        }
+
+        &.active {
+            background-color: #fe2e2e;
+            color: white;
+            border-radius: 0.2em;
+        }
+    }
+}
